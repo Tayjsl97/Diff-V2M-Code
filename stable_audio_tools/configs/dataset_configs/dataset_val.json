@@ -1,0 +1,23 @@
+{
+    "dataset_type": "audio_video_dir",
+    "rhythm_type": "odf",
+    "datasets": [
+        {
+            "id": "BGM909",
+            "path": "data/BGM909/val/wav_30/",
+            "video_feat": "data/BGM909/val/clip_30/",
+            "video_info": "data/BGM909/val/visualRhythm_30.json",
+            "video_color": "data/BGM909/val/color_30/",
+            "class_label": 2
+        },
+        {
+            "id": "SymMV",
+            "path": "data/SymMV/val/wav_30/",
+            "video_feat": "data/SymMV/val/clip_30/",
+            "video_info": "data/SymMV/val/visualRhythm_30.json",
+            "video_color": "data/SymMV/val/color_30/",
+            "class_label": 2
+        }
+    ],
+    "random_crop": true
+}

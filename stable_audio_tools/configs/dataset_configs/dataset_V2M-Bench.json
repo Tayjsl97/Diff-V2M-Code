@@ -1,0 +1,16 @@
+{
+    "dataset_type": "audio_video_dir",
+    "rhythm_type": "odf",
+    "drop_last": false,
+    "datasets": [
+        {
+            "id": "V2M-Bench",
+            "path": "data/V2M-Bench/wav_30/",
+            "video_feat": "data/V2M-Bench/clip_30/",
+            "video_info": "data/V2M-Bench/videoInfo_30.json",
+            "video_color": "data/V2M-Bench/color_30/",
+            "class_label": 2
+        }
+    ],
+    "random_crop": true
+}
