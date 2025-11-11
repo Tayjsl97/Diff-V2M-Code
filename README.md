@@ -10,7 +10,7 @@ This is the official implementation of **Diff-V2M (AAAI'26)**, which is a hierar
   Python 3.9, PyTorch 2.1.0.
   
   ```bash
-  git clone https://github.com/ZeyueT/VidMuse.git; cd VidMuse
+  git clone https://github.com/Tayjsl97/Diff-V2M-Code.git; cd Diff-V2M-Code
   ```
   
   ```bash
