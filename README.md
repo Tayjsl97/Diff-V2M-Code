@@ -22,11 +22,11 @@ This is the official implementation of **Diff-V2M (AAAI'26)**, which is a hierar
 ## Pretrained Weights
 For training Diff-V2M from scratch, please download the [stable-audio-open-1.0 model](https://huggingface.co/stabilityai/stable-audio-open-1.0/resolve/main/model.safetensors), put them into the directory './saved_model/stable_audio/'.
 
-For inference with Diff-V2M, please download the Diff-V2M model checkpoint [model.ckpt]() and its corresponding [model_config.json](https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_config_odf.json), put them into the directory './saved_model'.
+For inference with Diff-V2M, please download the Diff-V2M model checkpoint [model.ckpt](https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_odf.ckpt) and its corresponding [model_config.json](https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_config_odf.json), put them into the directory './saved_model'.
 ```bash
   mkdir -p saved_model
   wget https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_config_odf.json -O model_config.json
-  wget https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_config_odf.json -O model.ckpt
+  wget https://huggingface.co/TaylorJi/Diff-V2M/blob/main/model_odf.ckpt -O model.ckpt
   ```
 ## Data preperation
 Before running the training or inference script, make sure to construct training, validation, and inference datasets. 
