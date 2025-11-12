@@ -60,7 +60,8 @@ After data preprocessing, the json file of dataset looks like:
 - `--config-file`
   - The path to the defaults.ini file in the repo root, required if running `train.py` from a directory other than the repo root
 - `--pretransform-ckpt-path`
-  - Used in various model types such as latent diffusion models to load a pre-trained autoencoder. Requires an unwrapped model checkpoint. For training Diff-V2M, this path is 'saved_models/stable_audio/model.safetensors'.
+  - Used in various model types such as latent diffusion models to load a pre-trained autoencoder. Requires an unwrapped model checkpoint.
+  - For training Diff-V2M from scratch, this path is 'saved_models/stable_audio/model.safetensors'.
 - `--save-dir`
   - The directory in which to save the model checkpoints
 - `--checkpoint-every`
